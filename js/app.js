@@ -1,6 +1,10 @@
 $(document).foundation();
 
 $(document).ready(function() {
+   $('#exampleModal1').foundation('open');
+});
+
+$(document).ready(function() {
   $('.slickcarousel').slick({
     dots: true,
     arrows: true,
