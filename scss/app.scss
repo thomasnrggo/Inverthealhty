@@ -51,4 +51,10 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-//variables
+//imports
+
+@import "general";
+@import "menu";
+@import "tratamientos";
+@import "testimonios";
+@import "suscripcion";

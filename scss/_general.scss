@@ -1,0 +1,56 @@
+*:focus{
+  outline: none;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.full-vh{
+  min-height: 100vh;
+}
+
+.gradient {
+  background: -moz-linear-gradient(-45deg, rgba(255,163,187,0.8) 0%, rgba(70,180,221,0.8) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(255,163,187,0.8) 0%,rgba(70,180,221,0.8) 100%);
+  background: linear-gradient(135deg, rgba(255,163,187,0.8) 0%,rgba(70,180,221,0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffa3bb', endColorstr='#cc46b4dd',GradientType=1 );
+}
+
+#nosotros {
+  padding: 4% 0;
+}
+
+#tratamientos-tabSlider {
+  padding: 4% 0;
+}
+
+#tratamientos-content{
+  padding: 4% 0;
+}
+
+#testimonios {
+  background-color: #FAFAFA;
+  padding: 4% 0;
+}
+
+#suscripcion {
+  padding: 5% 0;
+  color: white;
+}
+
+//--  Fooder  --//
+
+
+footer {
+  .fab {
+    font-size: 1.6rem;
+    color: #EF517C;
+    transition: .4s ease;
+
+    &:hover {
+      transform: scale(1.08);
+      color: #db305f;
+    }
+  }
+}

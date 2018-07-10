@@ -1,0 +1,40 @@
+.slick-prev:before, .slick-next:before {
+  font-size: 32px;
+  color: rgba(70,180,221,0.8);
+}
+
+.tabs {
+  border: none;
+  background: transparent;
+}
+
+.tabs-title>a {
+  padding: 12px;
+  transition: .4s ease;
+}
+
+.tabs-title>a:focus, .tabs-title>a[aria-selected='true']{
+  background: transparent;
+  transform: scale(1.1);
+}
+
+.slick-slide.slick-active:focus {
+  outline: none !important;
+}
+
+.slick-next:before {
+    content: '\f105';
+}
+
+.slick-prev:before {
+    content: '\f104';
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.tabs-content {
+  border: none;
+}
