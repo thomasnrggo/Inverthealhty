@@ -62,7 +62,7 @@ span.bar-idioma {
         text-transform: capitalize;
 
         &:hover {
-          border-bottom: none;
+          border-bottom: none !important;
         }
       }
     }
