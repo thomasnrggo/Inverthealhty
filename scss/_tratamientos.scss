@@ -10,6 +10,7 @@
 
 .tabs-title>a {
   padding: 12px;
+  position: relative;
   transition: .4s ease;
 }
 
@@ -37,4 +38,16 @@
 
 .tabs-content {
   border: none;
+}
+
+.title-tratamiento {
+  position: absolute;
+  width: 94%;
+  top: 44%;
+  left: 3%;
+  text-align: center;
+}
+
+.title-tratamiento.largo{
+  top: 38%;
 }
