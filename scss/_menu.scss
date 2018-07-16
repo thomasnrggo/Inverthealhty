@@ -2,10 +2,133 @@
   max-width: 200px;
 }
 
+span.bar-idioma {
+ padding: 0.4rem 0rem !important;
+ color: white !important;
+}
+
+.extra-top-bar {
+  .top-bar-right {
+    margin-top: 16px;
+  }
+}
+
+.top-bar.header {
+    margin-top: -72px;
+  }
+
 .top-bar {
   background-color: transparent;
 
   ul {
     background-color: transparent;
+  }
+
+  .dropdown.menu .is-active>a {
+    color: $primary-color;
+  }
+
+  .dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a::after {
+    border-color: $primary-color transparent;
+    margin-top: -2px;
+  }
+
+  .top-bar-right.header{
+
+    margin-top: 36px;
+
+    a {
+      color: white;
+      font-weight: 400;
+      text-transform: capitalize;
+      border-bottom: 2px solid transparent;
+      transition: .4s ease;
+
+      &:hover {
+        font-weight: bold;
+        border-bottom: 2px solid $primary-color;
+      }
+    }
+
+  }
+
+  .is-dropdown-submenu {
+    border: none;
+
+    li {
+      text-align: right;
+
+      a {
+        text-transform: capitalize;
+
+        &:hover {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+  .social-links {
+    a {
+      color: white;
+      transition: .4s ease;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    .fab {
+      font-size: 1.6rem;
+    }
+  }
+
+  .idioma {
+
+    margin-top: 4px;
+
+    a {
+
+      &:hover {
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
+
+.tooltip {
+  font-weight: 400;
+}
+
+.title-bar {
+    padding: .6rem;
+    background: transparent;
+    color: #EF517C;
+
+    button {
+      position: absolute;
+      right: 1rem;
+      top: 48px;
+    }
+
+    .menu-icon{
+      width: 28px;
+    }
+
+    .menu-icon::after{
+      background: $primary-color;
+      box-shadow: 0 8px 0 $primary-color, 0 16px 0 $primary-color;
+    }
+}
+
+@media (max-width: 375px) {
+  .top-bar.header {
+    margin: 0;
+  }
+
+  .social-links {
+    width: 100%;
   }
 }
