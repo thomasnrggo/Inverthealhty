@@ -70,6 +70,50 @@ h4 {
   color: white;
 }
 
+.reveal.gradient {
+  .gradient {
+    background: -moz-linear-gradient(-45deg, rgba(255,163,187,0.8) 0%, rgba(70,180,221,0.8) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(255,163,187,0.8) 0%,rgba(70,180,221,0.8) 100%);
+    background: linear-gradient(135deg, rgba(255,163,187,0.8) 0%,rgba(70,180,221,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffa3bb', endColorstr='#cc46b4dd',GradientType=1 );
+  }
+}
+
+.reveal.suscripcion-reveal {
+  border: none;
+  padding: 0px;
+}
+
+.close-button{
+  color: white;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.suscripcion-container-modal{
+  padding: .6rem 0;
+  margin-top: 14%;
+
+  h3 {
+    color: white;
+    font-weight: 300;
+  }
+}
+
+.button.btn-inver{
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+
+  &:hover {
+    background: $secundary-color;
+    border-color: $secundary-color;
+    color: white;
+  }
+}
+
 //--  Fooder  --//
 
 

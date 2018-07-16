@@ -13,10 +13,42 @@
   </head>
   <body>
 
-    <div class="reveal" id="exampleModal1" data-reveal>
-      <h1>Awesome. I Have It.</h1>
-      <p class="lead">Your couch. It is mine.</p>
-      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+    <div class="reveal gradient suscripcion-reveal" id="exampleModal1" data-reveal>
+      <div class="grid-x">
+
+        <div class="small-12 medium-4 large-5 cell">
+          <img src="etc/img/modal.jpg" alt="">
+        </div>
+
+        <div class="small-12 medium-8 large-7 cell">
+          <div class="grid-x grid-padding-x align-center-middle text-center suscripcion-container-modal">
+            <div class="large-10 large-offset-1 medium-12 cell">
+              <h3>Suscribete</h3>
+              <form data-abide novalidate class="suscripcion-form">
+                <div data-abide-error class="alert callout" style="display: none;">
+                  <p><i class="fi-alert"></i> There are some errors in your form.</p>
+                </div>
+                <div class="grid-x grid-padding-x align-center-middle text-center">
+                  <div class="small-12 cell">
+                    <label>
+                      <input type="text" placeholder="Nombre">
+                    </label>
+                  </div>
+
+                  <div class="small-12 cell">
+                    <label>
+                      <input type="email" placeholder="Correo" aria-describedby="maximo@email.com" aria-errormessage="example1Error3" required>
+                    </label>
+                  </div>
+                  <fieldset class="small-12 cell">
+                    <button class="button btn-inver expanded" type="submit" value="Submit">¡Suscribete Ahora!</button>
+                  </fieldset>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
