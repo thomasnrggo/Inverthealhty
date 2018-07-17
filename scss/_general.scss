@@ -47,6 +47,29 @@ h4 {
   }
 }
 
+.fondo-contacto {
+  background-image: url('../etc/img/fondo-contacto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+@media (max-width:768px) {
+  .fondo-contacto {
+    background-position: center bottom;
+  }
+}
+
+@media (max-width:414px) {
+  .fondo-contacto {
+    background-position: right bottom;
+  }
+
+  .title-form {
+    font-size: 2.6rem;
+  }
+}
+
 
 
 #nosotros {
@@ -124,7 +147,7 @@ h4 {
 }
 
 .contacto-area{
-  padding: 6% 0;
+  padding: 6% .8rem;
   min-height: 50vh;
 }
 
