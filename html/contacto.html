@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <section class="gradient">
+    <section class="gradient full-vh">
       <header class="header">
 
         <div class="grid-container fluid hide-for-small-only">
@@ -124,6 +124,75 @@
           </div>
         </div>
       </header>
+
+      <div class="grid-container contacto-area">
+        <div class="grid-x grid-padding-x ">
+          <div class="small-12 medium-6 large-7 cell">
+
+          </div>
+          <div class="small-12 medium-6 large-5 cell ">
+              <h2 class="title-form">Cuentanos como<br>podemos ayudarte</h2>
+              <div class="">
+                <form data-abide novalidate>
+                  <div data-abide-error class="alert callout" style="display: none;">
+                    <p><i class="fi-alert"></i> Ups, parece que hay errores en el formulario, por favor verifica tus datos y vuelve a intentarlo.</p>
+                  </div>
+                  <div class="grid-x grid-padding-x">
+                    <div class="small-12 medium-6 cell">
+                      <label>
+                        <input type="text" placeholder="Nombre" aria-describedby="exampleHelpText" required>
+                        <span class="form-error">
+                          Necesitamos este campo para continuar.
+                        </span>
+                      </label>
+                    </div>
+                    <div class="small-12 medium-6 cell">
+                      <label>
+                        <input type="text" placeholder="Apellido" aria-describedby="exampleHelpText" required>
+                        <span class="form-error">
+                          Necesitamos este campo para continuar.
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="grid-x grid-padding-x">
+                    <div class="small-12 medium-8 cell">
+                      <label>
+                        <input type="email" placeholder="correo"  required pattern="email">
+                        <span class="form-error">
+                          Por favor, verifica que tu email sea correcto
+                        </span>
+                      </label>
+                    </div>
+
+                    <div class="small-12 medium-4 cell">
+                      <label>
+                        <input type="number" placeholder="Telefono"  required pattern="number">
+                        <span class="form-error">
+                          Necesitamos este campo para continuar.
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="small-12 cell">
+                    <label>
+                      <textarea placeholder="Mensaje" required ></textarea>
+                      <span class="form-error">
+                        Necesitamos este campo para continuar.
+                      </span>
+                    </label>
+                  </div>
+                  <div class="grid-x grid-padding-x">
+                    <fieldset class="small-12 medium-6 cell">
+                      <button class="button btn-inver expanded" type="submit" value="Submit">Enviar</button>
+                    </fieldset>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 
