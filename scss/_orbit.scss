@@ -1,0 +1,68 @@
+.primera-seccion{
+  margin-top: -120px;
+}
+
+.orbit {
+  z-index: -1;
+}
+
+.orbit-bullets {
+  z-index: 2;
+  position: absolute;
+  top: 42%;
+  left: 4%;
+  transform: rotate(90deg);
+}
+
+.orbit-bullets button {
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    border-radius: 50%;
+    background-color: $secundary-color;
+}
+
+.orbit-bullets button.is-active {
+    background-color: #2796bf;
+}
+
+.orbit-image {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 42%;
+  left: 12%;
+  color: white;
+
+
+  h2 {
+    color: white;
+    font-weight: 300;
+
+    strong {
+      font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .caption {
+    left: 16%;
+  }
+}
+
+@media (max-width: 414px) {
+  .primera-seccion {
+    margin-top: -112px;
+  }
+
+  .caption {
+    left: 5%;
+
+    h2 {
+      font-size: 4rem;
+    }
+  }
+}
