@@ -125,4 +125,4 @@ typings/
 ehthumbs.db
 Thumbs.db
 
-package-lock.json
+**/package-lock.json
